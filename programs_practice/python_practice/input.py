@@ -34,6 +34,8 @@ def preguntas():
         print(f"Wow!\n{age} years old, you are young!")
     else:
         print(f"You look younger for being {age} years old.")
+    user_data['email'] = input("Enter Your email: ")
+    user_data['password'] = input('Enter Your password: ')
     
     # Guardar los datos del usuario en un archivo JSON
     with open('user_data.json', 'w') as json_file:

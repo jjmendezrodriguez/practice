@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 class Animal:
     def __init__(self, nombre, edad):
         self._nombre = nombre
@@ -55,3 +56,14 @@ print(f"El perro {perro.nombre} dice: {perro.hacer_sonido()}")
 print(f"El gato {gato.nombre} dice: {gato.hacer_sonido()}")
 print(perro_robot.identificar())
 print(f"El perro robot {perro_robot.nombre} dice: {perro_robot.hacer_sonido()}")
+=======
+a = [4,5,6]
+b = [1,2,3]
+c = b + a
+print(c)
+
+my_list = [1,2,3,4,5,6,7,8,9,10]
+my_list[2] = 2
+
+print(my_list)
+>>>>>>> 7f6014859859320bf503194a97678eef1430a965
