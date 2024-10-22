@@ -4,6 +4,10 @@
 let count = 5;
 // v.name valor
 
+// camelcase se usa para separar texto
+maxNumber;
+// es como dejar un espacio max number
+
 let age = 1; // let count igual a 0
 // usando let puedes cambiar el valor de la variable
 age = 5;
