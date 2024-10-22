@@ -1,0 +1,1 @@
+# for se all programs use pip list, for de all version & programs use pip freeze.

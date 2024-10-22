@@ -1,0 +1,7 @@
+200 OK: La solicitud fue exitosa y el servidor devolvió la respuesta esperada.
+201 Created: La solicitud fue exitosa y se creó un nuevo recurso.
+400 Bad Request: La solicitud tiene un formato incorrecto o es inválida.
+401 Unauthorized: Falta autenticación válida.
+403 Forbidden: El servidor comprendió la solicitud, pero se niega a cumplirla.
+404 Not Found: El recurso solicitado no se encontró.
+500 Internal Server Error: Error general del servidor.

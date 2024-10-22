@@ -1,0 +1,18 @@
+{
+    "": {
+        "user_id": "eb210e15-7907-41e5-8a92-9ed720c2f4a2",
+        "username": "",
+        "email": "",
+        "created_at": "2024-08-08T16:40:14.695913",
+        "updated_at": "2024-08-08T16:40:14.695918",
+        "reviews": []
+    },
+    "jose": {
+        "user_id": "d828b929-ef9b-4d14-a36c-4e10a636710f",
+        "username": "jose",
+        "email": "john@example.com",
+        "created_at": "2024-08-08T16:58:41.655599",
+        "updated_at": "2024-08-08T16:58:41.655617",
+        "reviews": []
+    }
+}

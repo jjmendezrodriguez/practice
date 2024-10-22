@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <title>Register</title>
+    <meta name="description" content="Ver el clima en otros lugares del mundo">
+    <link rel="icon" type="image/png" href="/static/images/favicon-32x32.png">
+    <link rel="icon" type="image/x-icon" href="/static/images/favicon.ico">
+    <link rel="alternate" href="index-es.html" hreflang="es" title="Español">
+    <link rel="alternate" href="index-fr.html" hreflang="fr" title="Français">
+    <link rel="alternate" href="index-en.html" hreflang="en" title="English">
+    <link rel="stylesheet" href="static/styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="conteiner">
+        <div>
+            <div class="header-logo"><a href="/">
+                <img src="/static/images/mstile-150x150.png" alt="logo clima" width="100" height="auto">
+            </a></div>
+            <nav class="home-header">
+                <ul>
+                    <li><a href="/" class="home-header">Home</a></li>
+                    <li><a href="/" class="home-header">Places</a></li>
+                    <li><a href="/" class="home-header">Time</a></li>
+                    <li><a href="/" class="home-header">Reviews</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="login">
+            <a href="#" class="login-button" id="login-link">Login</a>
+            <a href="#" class="logout-button" id="logout-link" style="display: none;">Logout</a>
+        </div>
+    </header>
+    <!-- Main -->
+    <main>
+        <section class="new-user">
+            <div>
+                <h1 class="new-user">Register</h1>
+                <form class="new-user" method="post">
+                    <label for="text">User Name:</label>
+                    <input type="text" id="username" name="username"></p>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email"></p>
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" name="password"></p>
+                    <label for="password">Confirm Password:</label>
+                    <input type="password" id="confirm_password" name="confirm_password"></p>
+                    <button type="submit" id="create_user">Create User</button>
+                </form>
+                <p class="error-password" id="message_1"></p>
+                <p class="error-message" id="message_2"></p>
+                <p class="create-message" id="message_3"></p>
+            </div>
+        </section>
+    </main>
+    <!-- Login Modal -->
+   <div id="login-modal" class="modal" style="display: none;">
+    <div class="modal-content">
+        <span class="close-button" id="close-button">&times;</span>
+        <header>
+        <h2>Login</h2>
+    </header>
+        <form id="login-form">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+            <button type="submit">Login</button>
+            <div class="auth-options">
+                <p>Don't have an account? <a href="#" id="register-link">Register</a></p>
+                <p><a href="#" id="forgot-password-link">Forgot Password?</a></p>
+            </div>
+        </form>
+    </div>
+</div>
+    <!-- Footer -->
+    <footer>
+        <hr>
+        <img src="static/images/favicon-32x32.png" alt="logo">
+        <p>&copy; 2024 World Clima</p>
+        <div>
+            <ul>
+                <li><a href="#">Terms of Use</a></li>
+                <li><a href="#">Privacy</a></li>
+                <li><a href="#">Cookie Policy</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </div>
+    </footer>
+    <script src="/static/scripts.js"></script>
+</body>
+</html>

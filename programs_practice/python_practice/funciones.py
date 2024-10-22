@@ -1,22 +1,22 @@
-def suma(a, b):
-    return a + b
+name = input("first name:")
 
+convert = input("\ndo you like to conver miles in km? (yes/no):")
 
-def resta(a, b):
-    return a - b
+while True:
+    if convert == "yes":
+        if True:
+            miles = input("\nenter miles:")
+            km = 1.609
+            convert_dist = float(miles) * float(km)
+            print(f"\n{name.capitalize()} traveled {convert_dist} km on their bike.")
+            break
 
+    elif convert == "no":
+        miles = input("\nenter miles:")
+        print(f"\n{name.capitalize()} go {float(miles)} faraway in his bike")
+        break
 
-def multiplicacion(a, b):
-    return a * b
-
-
-def division(a, b):
-    return a / b
-
-
-def potencia(a, b):
-    return a ** b
-
-
-def raiz(a, b):
-    return a ** (1 / b)
+    else:
+        msg = "please answer yes or no"
+        print(f"\n{msg.capitalize()}")
+        convert = input("do you like to conver miles in km? (yes/no):")
