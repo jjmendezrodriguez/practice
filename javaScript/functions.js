@@ -1,9 +1,8 @@
-// document.getElementById("count-el").innerText = 5;
 // dec = declaras
 // declaration of a funtion on .js:
 // dec     name
 function increment() {
-  // funtion bady, programa lo que hace tu funcion cada vez que la llamas:
+  // function body, programa lo que hace tu funcion cada vez que la llamas:
   console.log("The button was clicked");
 }
 
@@ -28,7 +27,7 @@ function logLapTime() {
   let totalTime = lap1 + lap2 + lap3;
   console.log(totalTime);
 }
-// en esta funcion devolvemos el total de las variables lap1@3, func. que suma.
+// en esta funcion devolvemos el valor total de las variables lap1@3, func. que suma.
 logLapTime();
 
 let lapsCompleted = 0;
