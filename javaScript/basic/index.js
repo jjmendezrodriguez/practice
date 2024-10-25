@@ -4,7 +4,7 @@
 // utilisamos document para buscar un elemento en el DOM (Document Object Model)
 let countEl = document.getElementById("count-el");
 /* El .getElementById es buscar el elemento por su id ("id")
-lo que este escrito en el id tiene que ser lo mismo que este en el HTML
+lo que este escrito en el id de HTML tiene que ser la misma referencia del HTML,
 en este ejemplo <h2 id="count-el">0</h2> */
 
 // Un ejemplo de cambio de valor en una variable aqui comiensa el valor:
@@ -23,8 +23,8 @@ aqui llamas la variable y su nuevo valor imprime y le suma 1. */
   /* como funciona
  variable.lee o modifica el texto que es. ver data type para otras opciones */
   countEl.innerText = count;
-  // En este caso la variable count incrementa y luego imprime en la consola:
-  console.log(count);
+  // En este caso la variable count incrementa
+  console.log(count); // luego imprime count, esto confirma uso function. (not need it)
 }
 // 1. Grab the save-el paragrah and store it in a variable called saveEl
 let saveEl = document.getElementById("save-el");
@@ -32,7 +32,7 @@ let saveEl = document.getElementById("save-el");
 function save() {
   let countStr = count + " - ";
   saveEl.textContent += countStr;
-  console.log(count);
+  console.log(count); //(not need it) se usa para revisar que la funcion trabajo.^
 }
 
 function reset() {

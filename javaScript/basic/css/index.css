@@ -4,14 +4,18 @@ body {
   font-family: "Open Sans", "Helvetica Neue", sans-serif;
   text-align: center;
   height: 100vh;
+  touch-action: manipulation;
 }
 
 .container {
-  background: white;
+  display: flex;
+  flex-direction: column;
+  background: rgb(235, 235, 235);
   max-width: 50%;
   margin: auto;
   border: 3px solid rgba(0, 0, 0, 0.651);
   border-radius: 10px;
+  align-items: center;
 }
 
 h1 {
@@ -27,12 +31,13 @@ h2 {
 
 button {
   border: 1px solid black;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding-top: 25px;
+  padding-bottom: 25px;
   color: white;
   font-weight: bold;
-  width: 200px;
-  margin-bottom: 5px;
+  width: 75%;
+  max-width: 300px;
+  margin-bottom: 50px;
   border-radius: 5px;
 }
 
@@ -50,4 +55,13 @@ button {
 
 #save-el {
   font-weight: bold;
+}
+
+@media (max-width: 600px) {
+  .container {
+    max-width: 90%;
+  }
+  button {
+    width: 100%;
+  }
 }
