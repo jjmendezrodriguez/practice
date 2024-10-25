@@ -1,7 +1,7 @@
 let str = "texto o cadenas de texto";
 let num = 1234; // no need "comillas" para numeros
 let float = 1.5; // en javaScript no necesitas identificar los float.
-let boolean = "True or False need to be in capital letter";
+let boolean = "true or false not need to be in capital letter";
 
 // .js no lee numeros fracionales 1/4 pero puedes usarlos
 
@@ -32,3 +32,6 @@ value: El valor en los elementos de formulario.
     
 
 */
+
+/* El uso de === triple equals es para que el resultado sea estricto lo que quieres
+    si usas doble == funciona pero puede confundir con str y numeros. */
