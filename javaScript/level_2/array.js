@@ -7,7 +7,7 @@ El ultimo valor no necesita coma (,).
 En las paginas web they use list on post, skills, ect.
 
 */
-// index es:    0          1          2     comiensa de 0.
+// index es:    0          1          2     START de 0.
 let fruts = ["apples", "bananas", "grapes"];
 
 console.log(fruts[1]); // imprime el valor 1
