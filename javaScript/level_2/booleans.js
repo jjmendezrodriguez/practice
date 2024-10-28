@@ -6,9 +6,9 @@ let age = 11;
 if (age < 10) {
   resultado = true;
 }
-// puedes cambier el valor
+// Devuelve un resultado booleano
 console.log(resultado);
 
-console.log(3 < 8); // para resultados booleanos
-console.log(3 <= 3);
-console.log(8 > 9);
+console.log(3 < 8); // true
+console.log(3 <= 3); // true
+console.log(8 > 9); // false

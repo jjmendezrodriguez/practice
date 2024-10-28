@@ -3,11 +3,14 @@
 body {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
-  background-image: url("greenBack.jpg");
+  background-color: #016f32;
   background-size: cover; /* para que cubra toda la pantalla */
   text-align: center;
   color: white;
   font-weight: bold;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
 }
 
 h1 {
@@ -23,6 +26,8 @@ button {
   border: none;
   padding-top: 5px;
   padding-bottom: 5px;
+  margin-bottom: 4px;
+  margin-top: 4px;
 }
 
 #message-el {

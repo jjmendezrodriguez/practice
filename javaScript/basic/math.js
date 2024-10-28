@@ -1,12 +1,13 @@
-// en .js para dejar espacio es con mayuscula no _
 // str need ""
 // num not
 
 let firstBatch = 5;
 let secondBatch = 7;
+//  ^ Variables whit num values.
 
-// unit valor de dos variables.
-// funciona multiplicar *, +, -, /, %
+// cada simbolo matematio tiene una accion (*, +, -, /, %)
 let count = firstBatch + secondBatch;
+// In this case sum. but can add two str.
 
 console.log(count);
+// Print 12

@@ -1,14 +1,15 @@
 /* Condicionales or Conditionals
-   las condicionales trabajan con resultados boolean True or False
-   Sintacsis:
+   Las condicionales trabajan con resultados boolean True or False
+   Se declara con un if.
+   Sintaxis: 
    if (logica) {
-    "ejecuta este programa dentro de {}"
+    "ejecuta este programa dentro de {llaves}"
    }
      logica = lo que escribes dentro de (parentesis) */
 if (sum < 21) {
-  // si tu logica se cumple: True = ejecuta lo que esta dentro de las {llaves}
+  // ^ Si tu logica se cumple: True = ejecuta lo que esta dentro de las {llaves}
   console.log("Do you want to draw a new card? 🙂");
-  /* Si es False, puedes tener un: else if, es otra logica en caso de la primera es False
+  /* Si es False, puedes tener un: else if = otra logica en caso de la primera es False
      puedes tener cuantos else if quieras pero una vez uno se cumple no revisa los demas. */
 } else if (sum === 21) {
   console.log("Wohoo! You've got Blackjack! 🥳");
@@ -16,4 +17,4 @@ if (sum < 21) {
 } else {
   console.log("You're out of the game! 😭");
 }
-// si quieres que revise mas de una condicional debes crear varios if no usar else if
+// Para que revise mas de una condicional debes crear varios if no usar else if

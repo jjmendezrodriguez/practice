@@ -11,9 +11,8 @@ console.log(name + greeting);
 // Render the welcome message using welcomeEl.innerText
 welcomeEl.innerText = greeting + name;
 
-// Usar += funciona para no tener que escribir 2 veces lo mismo ejemplo:
-
 // welcomeEl.innerText = welcomeEl.innerText + " !!";
 // innerText = texto interior o texto visible por el DOM
+// Usar += funciona para no tener que escribir 2 veces lo mismo ejemplo:
 welcomeEl.innerText += "!!!";
 // estas diciendo lo mismo mas (+=) "agragas lo nuevo puede ser cualquier data type"

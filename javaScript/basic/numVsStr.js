@@ -2,13 +2,20 @@ let name = 42;
 let greeting = "Hi my name is ";
 let myGreeting = greeting + name;
 
-/* El valor del str es mas fuerte que num si combinas ambos la CPU leera que
-   todo es un str y no hay numeros o valores numericos. */
+/* The str have more domino que num, si combinas ambos la CPU leera que
+   todo es un str, no hay num o valores numericos. */
 
 console.log(myGreeting);
+/* ^ Esto imprime Hi my name is 42, ve a 42 como un str. Str is dominante
+no importa el orden que este si tienes un str va a pensar que todo es
+un str aun sin usar "comillas" en el numero.
 
-// esto imprime Hi my name is 42
-// .js no lee numeros fraccionales 1/4
-/* el uso de simbolos matematicos:
-   suma = a + b, tambien une str
+
+/* El uso de simbolos matematicos:
+   variavle = a + b, tambien une str
    */
+
+let value = 25 + "4"; // resultado 254
+let value1 = 25 + 4; // resultado 29
+let value2 = "5" + 4; // resultado 54
+let value3 = "hola" + 4; // resultado hola4
